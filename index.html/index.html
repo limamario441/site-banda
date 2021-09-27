@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body {
+  background-color: lightblue;
+}
+img:hover {
+  transform: scaleX(-1);
+} 
+
+img {   
+  max-width: 100%;
+  height: auto;
+}
+  * {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: blue;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: yellow;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+
+.right{
+  background-color:blue;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:black;">
+
+<div style="background-color:blue;padding:15px;text-align:center;">
+
+  <h1 onmouseover="style.color='yellow'"
+  onmouseout="style.color='black'">
+  BANDA CRISTO REFÚGIO</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Eventos</a>
+    <a href="#">galeria de fotos </a>
+    <a href="#">Biografia</a>
+    <a href="#">Agenda</a>
+  </div>
+
+  <div class="main">
+
+
+    <img src="logo.2banda.jpeg" alt="logo banda02">
+
+    <div style="background-color:red;text-align:center;padding:10px;margin-top:10px;">@cristorefugio.com.br</div>
+
+    <p> A banda foi fundada em 2012, pelo valista e compositor mario lima, junto com o baxista wesley morais, o grupo composto por quatro integrantes começou sua tragetoria em 2013 quando lançaram seu primeiro cd novos rumos.</p>
+     </div>
+
+</style>
+</head>
+<body>
+  
+
+<div class="gallery">
+
+    <img src="ex02/logo banda 2015.jpg" alt="" width="200" height="400">
+  </a>
+  <div class="desc">2015</div>
+</div>
+
+<div class="gallery">
+
+    <img src="ex02/logo banda 2018.jpg" alt="" width="200" height="300">
+  </a>
+  <div class="desc">2018</div>
+</div>
+
+<div class="gallery">
+    <img src="ex02/logo banda ao vivo 2020.jpg" alt="" width="200" height="300">
+  </a>
+  <div class="desc"> 2020</div>
+</div>
+
+</body>
+</html>
